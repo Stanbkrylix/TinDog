@@ -1,0 +1,163 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+#title {
+  background-color: #035397;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 6%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.collapse {
+  font-family: "ubuntu";
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.bton {
+  padding: 5% 3% 5% 0;
+}
+
+.IphoneImage {
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.icon {
+  color: #035397;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: blue;
+}
+
+.featuresP {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #035397;
+  color: white;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  padding: 2%;
+}
+
+#press {
+  background-color: #035397;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.CardCollum {
+  padding: 3% 2%;
+}
+
+@media(max-width: 1230px) {
+  #title {
+    text-align: center;
+  }
+
+  .IphoneImage {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #035397;
+  color: white;
+  margin: 2% 0;
+  padding: 10% 15%;
+}
+
+.TrueLove {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: white;
+  padding: 0 8% 2% 8%;
+}
+
+.but {
+  margin: 0 1.5%;
+}
+
+#footer {
+  color: black;
+  padding: 7% 0;
+}
+
+.TFIE {
+  margin: 0 10px 20px;
+}
+
+.Copy {
+  color: black;
+}
